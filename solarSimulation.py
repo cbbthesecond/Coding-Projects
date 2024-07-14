@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from datetime import datetime, timedelta
 
+
 class Body:
     def __init__(self, name, mass, position, velocity, color):
         #General Body Inits``
