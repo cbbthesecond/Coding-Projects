@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 class Body:
     def __init__(self, name, mass, position, velocity, color):
-        #General Body Inits
+        #General Body Inits``
         self.name = name
         self.mass = mass
         self.position = np.array(position, dtype='float64')
